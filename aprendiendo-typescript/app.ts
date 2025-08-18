@@ -1,25 +1,32 @@
-/* const msg:string = 'Hola Mundodssxxddddddddddd';
-
-const hero = {
-    name: 'Iron Man',
-    age:45
+// Funciones Básicas
+function sumar( a: number, b: number ): number {
+  return a + b;
 }
 
-console.log(hero.age + 1);
+const contar = ( heroes:string[]) => {
+  return heroes.length;
+}
+const superHeroes = ["Flash", "Arrow", "Superman", "Linterna Verde"];
+contar(superHeroes);
 
-console.log(hero); */
+//Parametros por defecto
+function llamarBatman(llamar: boolean): void {
+  if (llamar) {
+    console.log("Batiseñal activada");
+  }
+}
+
+llamarBatman(true);
+
+// Rest?
+const unirheroes = ( ...personas:string[]) => {
+  return personas.join('');
+}
 
 
-/* const a =10;
+// Tipo funcion
+const noHaceNada = ( numero:number, texto:string, booleano:boolean, arreglo:[] )=> {}
 
-function sayHello(msg:string) {
-    //console.log(msg)
-    msg.
-} */
-(() => {
-
-    const a:number=10;
-
-    console.log(a);
-
-})()
+// Crear el tipo de funcion que acepte la funcion "noHaceNada"
+let noHaceNadaTampoco;
+noHaceNadaTampoco = noHaceNada
