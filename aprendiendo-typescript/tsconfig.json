@@ -38,9 +38,12 @@
     "removeComments": true
   },
   "exclude": [
-    "node_modules2"
+    "node_modules2",
+    "funciones",
+    "objetos",
+    "tipos"
   ],
   "include": [
-    "ES6"
+    "interfaces"
   ]
 }
