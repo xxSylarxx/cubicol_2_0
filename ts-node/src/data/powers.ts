@@ -1,0 +1,4 @@
+interface Power{
+    id:Numbers;
+    
+}
